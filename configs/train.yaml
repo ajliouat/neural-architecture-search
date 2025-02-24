@@ -1,0 +1,9 @@
+# Training configuration
+model:
+  architecture: "models/architectures/best_candidate.pth"
+  learning_rate: 1e-3
+  batch_size: 64
+
+training:
+  num_epochs: 100
+  use_gpu: true
